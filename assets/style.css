@@ -8,6 +8,14 @@
     width: 70%;
     margin: auto;
 }
+.container-big{
+    width: 100%;
+    background-color: #9792E4;
+}
+
+html{
+    font-size: small;
+}
 
 
 
@@ -82,7 +90,7 @@ nav{
 }
 .text p{
     color: #5A6E7F;
-    font-size: small;
+   
     margin-top: 1rem;
     
 }
@@ -108,3 +116,59 @@ nav{
     text-align: center;
 }
 
+/*main*/
+
+/*Prima Sezione lilla strategic planning*/
+.box{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.box .left{
+    width: 50%;
+}
+
+.left img, .right img{
+    width: 200px;
+}
+.left{
+    
+    padding: 2rem;
+}
+
+.textleft{
+    color: white;
+    line-height: 1.5rem;
+}
+
+.left h3{
+    line-height: 6rem;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.right{
+    width: 35%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem; 
+    margin-right: 3rem;
+}
+
+.arrow{
+    background-color: #9792E4;
+    text-align: center;
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
