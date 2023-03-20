@@ -48,7 +48,6 @@ nav{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: brown;/*DA TOGLIERE*/
     margin-top: 2rem;
     margin-bottom: 4rem;
     gap: .5rem;
@@ -59,14 +58,13 @@ nav{
     display: flex;
     flex-basis: 32%;
     background-color: #B5DDFF;
-
+    border-radius: 10px;
+    padding: 1rem;
     
 }
 .card-container .double-card{
     display: flex;
     flex-basis: calc(64% + .5rem);
-    padding-left: 1rem;
-    padding-top: 1rem;
 }
 
 .card .double-card .text{
@@ -85,20 +83,28 @@ nav{
 .text p{
     color: #5A6E7F;
     font-size: small;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    
 }
 
 .btn-blue{
+    display: block;
+    width: 40%;
     color: white;
     background-color: #0084FD;
+    text-align: center;
     text-decoration: none;
     border-radius: 15px;
-    padding: .5rem;
+    margin-top: 2rem;
+    padding: .3rem;
 }
 
 .icon-card{
     color: #0084FD;
     font-size: 50px;
     line-height: 5rem;
+}
+.text-center{
+    text-align: center;
 }
 
