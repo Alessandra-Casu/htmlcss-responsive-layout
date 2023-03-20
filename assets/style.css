@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*header*/
+.nav-bar{
+    display: flex;
+    background-color: #0084FD;
+    justify-content: space-around;
+    align-items: center;
+    list-style:none;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar .links{
+    display: flex;
+  
+    list-style: none;
+}
