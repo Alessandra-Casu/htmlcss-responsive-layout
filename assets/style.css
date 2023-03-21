@@ -70,7 +70,7 @@ nav{
     border-radius: 10px;
     padding-inline: 1rem;
     padding-top: 1rem; 
-    padding-bottom:.5rem ;
+    padding-bottom: .5rem;
 }
 
 .card-container .double-card{
@@ -82,7 +82,7 @@ nav{
    width: 50%;
 }
 .phone{
-  width: 150px;  
+  width: 130px;  
   display: block;
 }
 .card .double-card .img{
@@ -318,6 +318,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content:center ;
     align-items: center;
     color: white;
     width: 100%;
@@ -358,7 +359,8 @@ nav{
 }
 
 .pcenter{
-    width: 50%;
+    width: 60%;
+    text-align: center;
 }
 
 .policylink{
@@ -378,7 +380,6 @@ footer .container-small p{
     margin: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    
 }
 
 /*media query*/
@@ -415,6 +416,10 @@ footer .container-small p{
 
 
 @media screen and (max-width:378px){
+    .container-small{
+        width: 100%;
+        padding: .5rem;
+    }
     .card-container{
         display: block;
     }
@@ -423,15 +428,16 @@ footer .container-small p{
         padding-left: 3rem;
     }
     .double-card .img{
+        display: block;
         padding-top: 2rem;
-        padding-left: 1.5rem;
+        padding-left: 5.5rem;
     }
     .btn-blue{
         width: 80%;
     }
 
     .card{
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
     
     .rectangle{
@@ -466,9 +472,19 @@ footer .container-small p{
     }
 
     .container-center{
-        width: 100%;
+        display: block;
+        text-align: center;
     }
-    .pcenter, .btn-white-purple{
+
+    .pcenter{
+        margin-left: 7.5rem;
+    }
+    .btn-white-purple{
+        margin-left: 10.5rem;
+    }
+
+
+    .footer .containe-small p{
         width: 100%;
     }
 }
