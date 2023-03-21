@@ -237,6 +237,7 @@ nav{
     background-color: white;
     border-radius: 10px ;  
     padding: 2rem;
+    margin-bottom: 2rem;
 }
 .white-card p{
     color: #5A6E7F;
@@ -251,9 +252,9 @@ nav{
     line-height: 3rem;
 }
 
-.white-card a{
+.btn-purple{
     display: block;
-    width: 50%;
+    
     background-color: #9792E4;
     color: white;
     border-radius: 15px;
@@ -261,29 +262,57 @@ nav{
     text-decoration: none;
     padding: .5rem;
     margin-top: 2rem;
+    white-space: nowrap;
+    
+}
+.space-btn{
+    width: 50%;
 }
 
 
 /*Sezione About Us*/
 .part-right img{
-    width: 100px;
-    height: 100px;
-    border-radius: 4rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 6rem;
 }
 .aboutus{
     display: flex;
     width: 100%;
-    padding: 2rem;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.aboutus h2{
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 
 .aboutus .part-left{
     width: 60%;
+    line-height: 1.5rem;
 }
 
 .aboutus .part-right{
     width: 25%;
 }
 
+.part-left .secondp{
+    padding-top: 2rem;
+}
 
-
+.part-right p{
+    color: #9792E4;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
  
+.in{
+   width: 3rem;
+   color: #9792E4;
+   background-color: white;
+   margin-right: 1rem;
+   padding: .2rem;
+}
