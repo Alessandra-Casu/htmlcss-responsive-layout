@@ -68,7 +68,8 @@ nav{
     flex-basis: 32%;
     background-color: #B5DDFF;
     border-radius: 10px;
-    padding: 1rem;
+    padding-inline: 1rem;
+    padding-top: 1rem;
     
 }
 .card-container .double-card{
@@ -81,6 +82,7 @@ nav{
 }
 .phone{
   width: 150px;  
+  display: block;
 }
 .card .double-card .img{
     width: 50%;  
@@ -91,8 +93,7 @@ nav{
 }
 .text p{
     color: #5A6E7F;
-    margin-top: 1rem;
-    
+    margin-top: 1rem;  
 }
 
 .btn-blue{
@@ -407,6 +408,43 @@ footer .container-small p{
 
     .white-card-container{
         justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width:378px){
+    .card-container{
+        display: block;
+    }
+    .card-container .double-card{
+        display: block;
+        padding-left: 3rem;
+    }
+    .double-card .img{
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+    }
+    .btn-blue{
+        width: 80%;
+    }
+
+    .card{
+        margin-bottom: 1rem;
+    }
+    
+    .rectangle{
+        display: block;
+        padding: 2rem;
+        margin: 1rem;
+    }
+    .text-rectangle{
+        width: 100%;
+        text-align: center;
+    }
+    .white-card-container{
+        display: block;
+        padding-bottom: 2rem;
     }
 
 }
