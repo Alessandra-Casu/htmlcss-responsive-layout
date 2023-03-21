@@ -447,4 +447,27 @@ footer .container-small p{
         padding-bottom: 2rem;
     }
 
+    .aboutus{
+        display: block;
+        width: 100%;
+        padding-inline: .2rem;
+    }
+
+    .aboutus .part-left, .aboutus .part-right{
+        width: 100%;
+        padding-inline: .2rem;
+    }
+    .aboutus .part-right{
+        padding-top: 3rem;
+    }
+    .part-right img{
+       margin-left: 3rem;
+    }
+
+    .container-center{
+        width: 100%;
+    }
+    .pcenter, .btn-white-purple{
+        width: 100%;
+    }
 }
