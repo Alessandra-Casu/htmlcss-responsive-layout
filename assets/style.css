@@ -120,28 +120,22 @@ nav{
 
 /*Prima Sezione lilla strategic planning*/
 .box{
-
     display: flex;
     justify-content: space-around;
     padding-top: 5rem;
     padding-bottom: 2rem;
-}
-.box .left{
-    width: 50%;
 }
 
 .left img, .right img{
     width: 200px;
 }
 .left{
-    
+    width: 50%;
+    color: white;
+    line-height: 1.5rem;
     padding: 2rem;
 }
 
-.textleft{
-    color: white;
-    line-height: 1.5rem;
-}
 
 .left h3{
     line-height: 6rem;
@@ -158,7 +152,6 @@ nav{
     text-align: center;
     line-height: 1.5rem;
     margin-top: 8rem;
-    
     margin-right: 3rem;
 }
 
@@ -255,13 +248,12 @@ nav{
 
 .btn-purple{
     display: block;
-    
     background-color: #9792E4;
     color: white;
     border-radius: 15px;
     text-align: center;
     text-decoration: none;
-    padding: .5rem;
+    padding: .7rem;
     margin-top: 2rem;
     white-space: nowrap;
     
@@ -311,10 +303,10 @@ nav{
 }
  
 .in{
-   width: 3rem;
+   width: 2rem;
    color: #9792E4;
    background-color: white;
-   margin-right: 1rem;
+   margin-right: .2rem;
    padding: .2rem;
 }
 
@@ -385,4 +377,36 @@ footer .container-small p{
     padding-top: 2rem;
     padding-bottom: 2rem;
     
+}
+
+/*media query*/
+@media screen and (min-width:820px){
+    .bars{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:810px){
+    .notab{
+        display:none;
+    }
+    .box{
+        display: block;
+    }
+    .left{
+        text-align:center ;
+    }
+    .left, .right{
+        width: 100%;
+        margin: auto;
+    }
+    .arrow{
+        margin-left: 20rem;
+    }
+
+    .white-card-container{
+        justify-content: center;
+    }
+
 }
