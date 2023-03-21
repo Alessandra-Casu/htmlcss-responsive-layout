@@ -10,8 +10,7 @@
 }
 .container-big{
     width: 100%;
-    background-color: #9792E4;
-   
+    background-color: #9792E4; 
 }
 
 html{
@@ -21,9 +20,11 @@ html{
 
 
 /*header*/
+     /*NAV*/
 nav{
     background-color: #0084FD;
     width: 100%;
+    padding-top: 1rem;
 }
 .nav-bar{
     display: flex;
@@ -52,15 +53,14 @@ nav{
     margin: .5rem;
     margin-bottom: 1.5rem;
 }
-
+      /*CARD CONTAINER*/
 .card-container{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     gap: .5rem;
-  
 }
 
 .card-container .card{
@@ -69,9 +69,10 @@ nav{
     background-color: #B5DDFF;
     border-radius: 10px;
     padding-inline: 1rem;
-    padding-top: 1rem;
-    
+    padding-top: 1rem; 
+    padding-bottom:.5rem ;
 }
+
 .card-container .double-card{
     display: flex;
     flex-basis: calc(64% + .5rem);
